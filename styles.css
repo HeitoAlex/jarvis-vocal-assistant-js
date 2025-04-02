@@ -1,0 +1,30 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif; /* Font leggibile */
+    text-align: center; /* Allineamento al centro */
+    margin-top: 50px; /* Spazio dall'alto */
+}
+
+button{
+    padding: 10px 20px; /* Spazi interni */
+    font-size: 16px; /* Dimensione testo */
+    cursor: pointer; /* Cambia cursore al passaggio */
+    background: #007bff; /* Colore blu */
+    color: white; /* Testo bianco */
+    border: none; /* Senza bordi */
+    border-radius: 5px; /* Angoli arrotondati */
+}
+
+#output{
+    margin-top: 20px; /* Spazio dal bottone */
+    min-height: 50px; /* Altezza minima */
+    padding: 10px; /* Spazi interni */
+    border: 1px dashed #ccc; /* Bordo tratteggiato */
+    border-radius: 5px; /* Angoli arrotondati */
+}
